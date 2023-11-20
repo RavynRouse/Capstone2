@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>National Parks</title>
+</head>
+<body>
+  <header>
+    <h1>National Parks</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="national_parks.html">National Parks</a></li>
+      <li><a href="mountains.html">Mountains</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Search National Parks</h2>
+    
+    <form id="searchForm">
+      <label for="location">Search by Location:</label>
+      <select id="location" name="location">
+        <option value="all">All</option>
+        <option value="California">California</option>
+        <option value="Utah">Utah</option>
+        <!-- Add more states as needed -->
+      </select>
+
+      <label for="parkType">Search by Park Type:</label>
+      <select id="parkType" name="parkType">
+        <option value="all">All</option>
+        <option value="National Park">National Park</option>
+        <option value="National Monument">National Monument</option>
+        <!-- Add more park types as needed -->
+      </select>
+
+      <button type="button" onclick="searchParks()">Search</button>
+    </form>
+
+    <h2>National Parks List</h2>
+    <ul id="parkList">
+      <!-- Parks will be dynamically added here using JavaScript -->
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2023 Outdoor Adventures</p>
+  </footer>
+
+  <script src="national_parks.js"></script>
+</body>
+</html>
