@@ -16,7 +16,7 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
-  background-color: #333;
+  background-color: green;
   overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ main {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #333;
+  background-color: green;
   color: white;
 }
 
@@ -80,3 +80,5 @@ footer {
   border-radius: 8px;
 }
 
+
+       
